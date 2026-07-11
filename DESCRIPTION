@@ -1,11 +1,9 @@
 Package: BPRMeth
 Type: Package
 Title: Model higher-order methylation profiles
-Version: 1.39.0
+Version: 1.39.1
 Authors@R: person("C. A.", "Kapourani", email = "kapouranis.andreas@gmail.com",
                   role = c("aut", "cre"))
-Author: Chantriolnt-Andreas Kapourani [aut, cre]
-Maintainer: Chantriolnt-Andreas Kapourani <kapouranis.andreas@gmail.com>
 Description: The BPRMeth package is a probabilistic method to quantify explicit 
     features of methylation profiles, in a way that would make it easier to 
     formally use such profiles in downstream modelling efforts, such as 

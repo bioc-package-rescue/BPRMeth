@@ -389,5 +389,5 @@ boxplot_cluster_expr <- function(cluster_obj, expr, anno,
                      aes(label = paste0("", N)),
                      geom = 'text', lwd = 5, col = 'black', cex = 5) +
         .gg_theme() + theme(axis.text.x = element_blank()) +
-        labs(list(title = title, y = "expression level"))
+        labs(title = title, y = "expression level")
 }
